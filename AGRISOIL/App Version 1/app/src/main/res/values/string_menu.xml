@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AndroidBottomNavigationView</string>
+    <string name="home">Home</string>
+    <string name="meassure">Meassure</string>
+    <string name="history">History</string>
+    <string name="calculator">Calculator</string>
+    <string name="predict">Predict</string>
+    <string name="profil">Profile</string>
+    <string name="fragment_home">Fragment Home</string>
+    <string name="fragment_meassure">Fragment Meassure</string>
+    <string name="fragment_histroy">Fragment History</string>
+    <string name="fragment_calculator">Fragment Calculator</string>
+    <string name="fragment_predict">Fragment Predict</string>
+    <string name="fragment_profil">Fragment Profile</string>
+</resources>

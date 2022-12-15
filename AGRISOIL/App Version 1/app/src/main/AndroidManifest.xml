@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.agrisoil.npkapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="Agrisoil"
+        android:roundIcon="@mipmap/icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication">
+        <activity
+            android:name=".alat25"
+            android:exported="false" />
+        <activity
+            android:name=".alat24"
+            android:exported="false" />
+        <activity
+            android:name=".alat23"
+            android:exported="false" />
+        <activity
+            android:name=".alat22"
+            android:exported="false" />
+        <activity
+            android:name=".alat21"
+            android:exported="false" />
+        <activity
+            android:name=".alat20"
+            android:exported="false" />
+        <activity
+            android:name=".alat19"
+            android:exported="false" />
+        <activity
+            android:name=".alat18"
+            android:exported="false" />
+        <activity
+            android:name=".alat17"
+            android:exported="false" />
+        <activity
+            android:name=".alat16"
+            android:exported="false" />
+        <activity
+            android:name=".alat15"
+            android:exported="false" />
+        <activity
+            android:name=".alat14"
+            android:exported="false" />
+        <activity
+            android:name=".alat13"
+            android:exported="false" />
+        <activity
+            android:name=".alat12"
+            android:exported="false" />
+        <activity
+            android:name=".alat11"
+            android:exported="false" />
+        <activity
+            android:name=".alat10"
+            android:exported="false" />
+        <activity
+            android:name=".alat9"
+            android:exported="false" />
+        <activity
+            android:name=".alat8"
+            android:exported="false" />
+        <activity
+            android:name=".alat7"
+            android:exported="false" />
+        <activity
+            android:name=".alat6"
+            android:exported="false" />
+        <activity
+            android:name=".alat5"
+            android:exported="false" />
+        <activity
+            android:name=".alat4"
+            android:exported="false" />
+        <activity
+            android:name=".alat3"
+            android:exported="false" />
+        <activity
+            android:name=".alat2"
+            android:exported="false" />
+        <activity
+            android:name=".Notification_settings"
+            android:exported="false" />
+        <activity
+            android:name=".language_page"
+            android:exported="false" />
+        <activity
+            android:name=".new_phoneregis_verifyOTP"
+            android:exported="false" />
+        <activity
+            android:name=".new_phoneregis_sendOTP"
+            android:exported="false" />
+        <activity
+            android:name=".alat1"
+            android:exported="false" />
+        <activity
+            android:name=".Profile_activity"
+            android:exported="false" />
+        <activity
+            android:name=".Map_activity"
+            android:exported="false" />
+        <activity
+            android:name=".Mydata_page"
+            android:exported="false" />
+        <activity
+            android:name=".Meassur_page"
+            android:exported="false" />
+        <activity
+            android:name=".Predict_page"
+            android:exported="false" />
+        <activity
+            android:name=".History_page"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ResetPassword"
+            android:exported="false" />
+        <activity
+            android:name=".NotificationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".kombinasi2"
+            android:exported="false" />
+        <activity
+            android:name=".Kombinasi1"
+            android:exported="false" />
+        <activity
+            android:name=".CALCULATOR"
+            android:exported="false" />
+        <activity
+            android:name=".HOME"
+            android:exported="false" />
+        <activity
+            android:name=".map_view"
+            android:exported="false" />
+        <activity
+            android:name=".phone_regis_page1"
+            android:exported="false" />
+        <activity
+            android:name=".Register_page"
+            android:exported="false" />
+        <activity
+            android:name=".Login_page"
+            android:exported="false" />
+        <activity
+            android:name=".Welcome_page"
+            android:exported="false" />
+        <activity
+            android:name=".Splash_screen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBQWzXw39Prvot-bmnciZYvPT6lX4PVSqE" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+    </application>
+
+</manifest>

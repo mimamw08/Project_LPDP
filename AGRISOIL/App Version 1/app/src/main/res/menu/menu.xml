@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_home"
+        android:icon="@drawable/cil_home"
+        android:title="@string/home"/>
+    <item
+        android:id="@+id/menu_meassure"
+        android:icon="@drawable/meassure_icon"
+        android:title="@string/meassure"/>
+    <item
+        android:id="@+id/menu_history"
+        android:icon="@drawable/history_icon"
+        android:title="@string/history"/>
+    <item
+        android:id="@+id/menu_calculator"
+        android:icon="@drawable/cil_calculator"
+        android:title="@string/calculator"/>
+    <item
+        android:id="@+id/menu_predict"
+        android:icon="@drawable/predict_icon"
+        android:title="@string/predict"/>
+</menu>

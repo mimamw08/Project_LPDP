@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "951177723095",
+    "project_id": "npk-users",
+    "storage_bucket": "npk-users.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:951177723095:android:1b8c69d680f1ced0920492",
+        "android_client_info": {
+          "package_name": "com.agrisoil.nkpapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "951177723095-s223m1ct5v0mqbkj2m1pdr9qsodivura.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBik9pFyovoTAep9PapWwaTqel__WHGBmI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "951177723095-s223m1ct5v0mqbkj2m1pdr9qsodivura.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

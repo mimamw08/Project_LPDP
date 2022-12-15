@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp">
+
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="P201" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LoRa.id Device EUI"
+        android:paddingBottom="10dp"/>
+
+    <EditText
+        android:id="@+id/lora_deviceEUI_p201"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_edittext"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        tools:ignore="SpeakableTextPresentCheck"
+        android:paddingStart="10dp"/>
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LoRa.id Device ID "
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"/>
+
+    <EditText
+        android:id="@+id/lora_deviceID_p201"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        tools:ignore="SpeakableTextPresentCheck"
+        android:background="@drawable/rounded_edittext"
+        android:paddingStart="10dp"/>
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LoRa.id Device Address"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"/>
+
+    <EditText
+        android:id="@+id/lora_deviceAddress_p201"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        tools:ignore="SpeakableTextPresentCheck"
+        android:background="@drawable/rounded_edittext"
+        android:paddingStart="10dp"
+        />
+
+    <Button
+        android:id="@+id/submit_p201"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit" />
+
+</LinearLayout>
